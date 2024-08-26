@@ -1,0 +1,41 @@
+
+
+.heading-img {
+    
+    height: 280px;
+   
+}
+
+.heading-img > img {
+    /* position: absolute; */
+    transition: transform 0.2s linear;
+    
+    transform-origin: bottom right;
+    
+}
+
+.heading-img > img:hover {
+    transform: scale(0.831);
+}
+
+.heading-text {
+    position: absolute;
+    top: 10rem;
+    z-index: 50;
+    right: 0;
+    width: 150px;
+    
+    background-color: black;
+    color: white;
+    padding: 7px 15px;
+    opacity: 0;   
+    transition: width 0.3s linear, opacity 0.3s linear;
+}
+
+.heading-img:hover .heading-text{
+      width: 200px;
+      opacity: 1;
+}
+
+
+

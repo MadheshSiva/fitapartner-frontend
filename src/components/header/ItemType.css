@@ -1,0 +1,19 @@
+.main-line {
+    position: relative;
+    display: inline-block;
+}
+
+.line {
+    width: 10px; 
+    background-color: #1c83ea;
+    height: 1.5px;
+    border-radius: 1px;
+    left: 0;
+    bottom: -4px; 
+    transition: width 0.3s linear, left 0.3s linear; 
+}
+
+.main-line:hover .line {
+    width: 62px; 
+    left: 0; 
+}
